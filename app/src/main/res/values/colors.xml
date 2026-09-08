@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fp_bg">#0B1220</color>
+    <color name="fp_surface">#152033</color>
+    <color name="fp_surface_alt">#1C2B42</color>
+    <color name="fp_text">#E8EEF7</color>
+    <color name="fp_muted">#8B9BB4</color>
+    <color name="fp_accent">#2EE6A6</color>
+    <color name="fp_accent_dim">#1A4F44</color>
+    <color name="fp_danger">#FF6B6B</color>
+    <color name="fp_overlay">#CC0B1220</color>
+    <color name="fp_stroke">#2A3B55</color>
+
+    <!-- New UI Colors -->
+    <color name="btn_purple">#613D8E</color>
+    <color name="status_error">#D32F2F</color>
+    <color name="status_ok">#388E3C</color>
+    <color name="status_info">#1976D2</color>
+</resources>

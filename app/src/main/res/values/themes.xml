@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DocumentReader" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/fp_accent</item>
+        <item name="colorPrimaryVariant">@color/fp_accent_dim</item>
+        <item name="colorOnPrimary">@color/fp_bg</item>
+        <item name="colorSecondary">@color/fp_accent</item>
+        <item name="colorOnSecondary">@color/fp_bg</item>
+        <item name="android:statusBarColor">@color/fp_bg</item>
+        <item name="android:navigationBarColor">@color/fp_bg</item>
+        <item name="android:windowBackground">@color/fp_bg</item>
+        <item name="android:textColorPrimary">@color/fp_text</item>
+        <item name="android:textColorSecondary">@color/fp_muted</item>
+        <item name="colorSurface">@color/fp_surface</item>
+        <item name="colorOnSurface">@color/fp_text</item>
+    </style>
+
+    <style name="Theme.DocumentReader.Camera" parent="Theme.DocumentReader">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

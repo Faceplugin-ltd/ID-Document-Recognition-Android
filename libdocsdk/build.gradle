@@ -1,0 +1,13 @@
+// Consumes the FacePlugin Document Reader AAR produced by DocumentReader-Android-SDK.
+// Filled by: python scripts/export.py  (from the Build kit)
+// The demo app must depend on project(':libdocsdk') only — no app/jniLibs overlays.
+def aar = file("documentreadersdk.aar")
+if (!aar.exists()) {
+    throw new GradleException(
+        "Missing libdocsdk/documentreadersdk.aar.\n" +
+        "From DocumentReader-Android-SDK run:\n" +
+        "  python scripts/export.py --rebuild"
+    )
+}
+configurations.maybeCreate("default")
+artifacts.add("default", aar)

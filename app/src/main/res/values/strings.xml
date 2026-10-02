@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">FacePlugin DocumentReader</string>
+    <string name="app_name">Faceplugin-Document-SDK</string>
     <string name="strSurnameAndGivenNames">Surname and given names</string>
     <string name="strPortrait">Portrait</string>
     <string name="docImageLabel">Document image</string>

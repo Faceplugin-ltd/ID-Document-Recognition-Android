@@ -215,7 +215,7 @@ Call order (background thread): `getMachineCode` → `setActivation` → `init` 
 
 ```kotlin
 Thread {
-    var ret = DocumentReaderSDK.setActivation(context, "FP1.…")
+    var ret = DocumentReaderSDK.setActivation(context, "YOUR_LICENSE_KEY")
     if (ret == DocumentReaderSDK.SDK_SUCCESS) {
         ret = DocumentReaderSDK.init(context)
     }
